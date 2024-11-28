@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>刷题应用</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>党的二十大知识测试</h1>
+        <div id="question-container" class="question-container">
+            <div id="question" class="question">加载题目...</div>
+            <form id="answer-form">
+                <input type="text" id="answer-input" placeholder="请输入答案">
+                <button type="submit">提交</button>
+            </form>
+            <div id="options" class="options"></div>
+            <div id="result" class="result"></div>
+            <div id="progress" class="progress">进度: 0/0</div>
+            <div id="correct-rate" class="correct-rate">正确率：0%</div>
+            <button id="reset-button" class="reset-button">重新开始</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
